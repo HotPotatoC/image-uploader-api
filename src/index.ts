@@ -15,4 +15,6 @@ app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 
 app.post("/upload", upload.single("image"), error, uploadImage);
 
-app.listen(5000, () => console.log("Server started on port 5000"));
+app.listen(process.env.PORT || 5000, () =>
+  console.log("Server started on port 5000")
+);
