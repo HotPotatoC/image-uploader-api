@@ -44,7 +44,7 @@ Example response
 {
   "message": "Successfully uploaded image",
   "filename": "976892e4e332c56fdcaf9f0e-1600942623675.png",
-  // 👇 To view the uploaded image navigate to the url
+  // To view the uploaded image navigate to the url
   "url": "http://localhost:5000/uploads/976892e4e332c56fdcaf9f0e-1600942623675.png"
 }
 ```
